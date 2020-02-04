@@ -1,0 +1,116 @@
+.page{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+header{
+	height: 100%;
+	background-color: #76ecf2;
+	width: 100%;
+	display: flex;
+	border-style: groove;
+	border-color: black;
+	border-radius: 5px;
+}
+#banner{
+	margin: auto;
+}
+
+#logo{
+	margin-right: 0px;
+}
+.mainbody{
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.syn{
+	margin: 8px;
+	background-color: white;
+	vertical-align: text-top;
+	width: 60%;
+}
+
+.element{
+	display: flex;
+	flex-direction: column;
+	background-color: #95bfad;
+	width: 100%;
+	text-align: center;
+	border-style: groove;
+	text-decoration: none;
+	color: white;
+	border-color: white;
+	border-radius: 2px;
+}
+
+.side{
+	background-color: #e098ce;
+	width: 25%;
+}
+
+aside{
+	width: 100%;
+	background-color: #e098ce;
+}
+
+footer{
+	background-color: #f49e42;
+	width: 100%;
+		display: flex;
+	flex-direction: row;
+}
+#rside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 50%;
+}
+
+#lside{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+	width: 50%;
+}
+
+.fleft{
+	text-decoration: none;
+	color: black;
+}
+.fright{
+	text-decoration: none;
+	color: black;
+}
+.image{ /* redimensionne l'image*/
+	display:block;
+	width:350px;
+	height:350px;
+	background-position:50% 50%;
+}
+a:hover /* Apparence au survol des liens */
+{
+    color: black;
+    text-decoration: none;
+}
+a:active /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: black; /* Appliquer une couleur grise */
+    text-decoration: none;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: black; /* Appliquer une couleur grise */
+    text-decoration: none;
+}
+h1{
+    margin:0;
+    padding:0	
+    margin: auto;
+}
